@@ -4,9 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1> Escala Cer</h1>
       <div className="App-header">
-        <h1> Escala Cer</h1>
-        <p>Sistema troca de escala</p>
+        
+        <h4>Sistema troca de escala</h4>
+        <p>Entre com suas credenciais</p>
         <div className='formLogin'>
         <input className='login' type='text' placeholder='Digite seu login'></input>
         <input className='login' type='password' placeholder='Digite sua senha'></input>

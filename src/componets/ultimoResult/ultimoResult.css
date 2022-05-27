@@ -1,0 +1,38 @@
+.uResult {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(12, 12, 12);
+    margin-bottom: 2px;
+  }
+  .tituloResult{
+    min-height: 100%;
+    font-size: calc(10px + 2vmin);
+    color: rgb(12, 12, 12);
+    text-align: left;
+  }
+  .contResult {
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: calc(10px + 2vmin);
+    color: rgb(12, 12, 12);
+    margin-bottom: 0px;
+  }
+  .jogoResult{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #057534;
+    flex-direction: row;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: calc(16px + 2vmin);
+    margin: 3px;
+    margin-bottom: 0px;
+  }

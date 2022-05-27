@@ -1,0 +1,22 @@
+.headerApp {
+    margin-top: 0px;
+    background-color: #24d1d1;
+    min-height: 10vh;
+    min-width: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: rgb(247, 243, 243);
+    text-align: center;
+  }
+
+  .textHeader1 {
+      margin-left: 10vh;
+      font-size: 30px;
+      font-weight: bold;
+  }
+  .textHeader2 {
+    margin-right: 10vh;
+}

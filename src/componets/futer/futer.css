@@ -1,0 +1,10 @@
+.futer {
+    background-color: #0c0808;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: #ffffff;
+  }

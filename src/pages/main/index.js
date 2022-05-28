@@ -10,6 +10,7 @@ function Main() {
         <input className='login' type='text' placeholder='Digite seu login'></input>
         <input className='login' type='password' placeholder='Digite sua senha'></input>
         <button className='button'>Login</button>
+        <button className='button2'>Cadastrar-me</button>
       </div>
     </div>
   );

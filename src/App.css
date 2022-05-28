@@ -29,15 +29,14 @@
 .App-header {
   background-color: #57585c;
   max-width: 60vh;
-  min-height: 28vh;
-  font-size: calc(5px + 2vmin);
+  min-height: 30vh;
   color: white;
   border-radius: 20px;
 }
 
 .App-header p {
   margin: 10px;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(3px + 2vmin);
 }
 
 .App-header h4 {
@@ -63,12 +62,27 @@
 .button {
   width: 95%;
   height: 40px;
+  margin-bottom: 5px;
   border-radius: 10px;
   background-color: aquamarine;
   cursor: pointer;
+  font-size: 20px;
 }
 .button:hover {
   background-color: rgb(3, 58, 40);
+  color: white;
+}
+
+.button2 {
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: unset;
+  cursor: pointer;
+}
+.button2:hover {
+  background-color: #282c34;
+  color: white;
 }
 
 .App-link {

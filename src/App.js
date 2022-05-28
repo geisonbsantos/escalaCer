@@ -10,7 +10,6 @@ function App() {
       <div>
         <Routes1 />
       </div>
-      
     </div>
   );
 }

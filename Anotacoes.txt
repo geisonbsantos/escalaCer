@@ -6,3 +6,9 @@ Dependências
 Tela de Login
 https://www.youtube.com/watch?v=5KqP3Vx8Y4s
 
+[MASTER CLASS #006] Criando um Admin Completo em Node.js e React com AdminJS
+https://www.youtube.com/watch?v=_pLOceLpRjo
+
+Começando um projeto do ZERO
+
+1- npm init -y

@@ -1,9 +1,9 @@
-import React, { useState, creatContext } from "react";
+import React, { useState, createContext } from "react";
 import { useNavigate } from "react-router-dom";
   
-export const AuthContext = creatContext();
+export const AuthContext = createContext();
 
-export const AuthProvider = ({childrean}) => {
+export const AuthProvider = ({children}) => {
     const navigate = useNavigate();
     const [user, setUser] = useState(null);
 
@@ -16,7 +16,7 @@ export const AuthProvider = ({childrean}) => {
         localStorage.setItem("user", JSON.stringify(loggedUser));
 
         if (password === "secret") {
-            setUser (loggedUser);
+            setUser(loggedUser);
             navigate("/login");
         }
     };
@@ -29,7 +29,7 @@ export const AuthProvider = ({childrean}) => {
 
     return (
         <AuthContext.Provider value={{ authenticated: !!user, user, login, logout }}>
-            {childrean}
+            {children}
         </AuthContext.Provider>
     )
 };
